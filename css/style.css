@@ -1,0 +1,96 @@
+body{
+    background-color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+button{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+button:visited{
+    outline: none;
+    box-shadow: none;
+}
+button:active{
+    position: relative;
+    top: 3px;
+    outline: none;
+}
+p, span{
+    color: antiquewhite;
+    font-size: 20px;
+}
+input[type=number]{
+    border: none;
+    width: 50px;
+    background-color: transparent;
+    padding-left: 10px;
+    border-bottom:2px solid white;
+    color: antiquewhite;
+    font-size: 19px;
+}
+#change-size{
+    background-color: rgb(19,20,24);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+.reset-btn{
+    background-color: rgb(19,20,24);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    color: antiquewhite;
+}
+.clear{
+    padding: 1;
+    margin-bottom: 120px;
+}
+.left{
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+.right{
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+
+.btn-holder{
+    height: 50px;
+}
+#score{
+    text-align: center;
+}
+#up{
+    transform: rotateZ(-90deg) translateX(250px) translateY(370px);
+}
+#down{
+    transform: rotateZ(90deg) translateX(-100px) translateY(-252px);
+}
+#left{
+    transform: rotateZ(180deg) translateX(-65px) translateY(180px);
+}
+#right{
+    transform: translateX(105px) translateY(-175px);
+}
+#canvas{
+    background-color: #515C6B;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+    width: inherit
+}

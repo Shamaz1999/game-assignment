@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="css/style.css" rel="stylesheet">
+  <title>2048</title>
+</head>
+
+<body>
+  <div class="left">
+    <h1>2048</h1>
+    <p>The aim of this game is to add two tiles which have the same number. The maximum tile number that can be obtained is 2048, it cannot exceed from this. The Tiles can be controlled with arrows keys, WASD keys or with the arrow images below.</p>
+    <p>Score :
+      <span id="score"></span>
+    </p>
+    <div id="size-bloc">
+      <span id="size-title">Size : </span>
+      <input id="size" type="number" value="4">
+      <button id="change-size">OK</button>
+      <br>
+      <button class="reset-btn" onclick="reset();">Reset Game</button>      
+      <div class="clear"></div>
+    </div>
+        <button onclick="moveUp();" id="up"><img src="images/arrow.png" height="100" alt=""></button>
+        <button onclick="moveDown();" id="down"><img src="images/arrow.png" height="100" alt=""></button>
+        <button onclick="moveLeft();" id="left"><img src="images/arrow.png" height="100" alt=""></button>
+        <button onclick="moveRight();" id="right"><img src="images/arrow.png" height="100" alt=""></button>
+  </div>
+
+  <div class="right"><canvas class="center" id="canvas" width="500" height="500"></canvas></div>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
